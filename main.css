@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow:wght@700&family=Fraunces:opsz,wght@9..144,900&family=Josefin+Sans:wght@300&family=Public+Sans:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white-color:  hsl(0, 0%, 100%);
+}
+.header{
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 30px;
+}
+.nav-bar{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: row;
+    float: left;
+}
+.header .nav-bar ol{
+    display: inline-flex;
+    gap: 15px;
+    list-style: none;
+    margin-left:45px
+    float: right;
+}
+
+.header .nav-bar ol li>a{
+
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* header nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+header nav ol{
+    list-style: none;
+    display: none;
+    gap: 20px;
+    
+}
+header nav ol li a{
+    color:  hsl(0, 0%, 100%);
+    text-decoration: none;
+} 
+p.border{
+border-style: ridge;
+border-color: hsl(0, 0%, 55%);
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 300;
+font-size: 40px;
+width: 350px;
+height: 150px;
+color:  hsl(0, 0%, 100%);
+text-transform: uppercase;
+padding: 20px;
+margin-top: 200px;
+
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 60px;
+    width: 100%;
+    height: 100vh;
+}
+.cards ::after{
+    content: "";
+  clear: both;
+  display: table
+}
+
+.card{
+    float: left;
+    width: 20%;
+    padding: 10px;
+
+}
+.card2{
+    position: absolute;
+    top: 900px;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    right: 300px;
+    background-color:hsl(0, 0%, 100%)  ;
+    border: 3px solid hsl(0, 0%, 100%)  ;
+
+}
+footer{
+    position: absolute;
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%) ;
+    top: 2500px;
+    width: 100%;
+
+} */
+
+
+/* @media screen and (min-width:720px) {
+ header{
+    background-image: url("images/desktop/image-hero.jpg");
+
+ }   
+ header nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+ header nav ol{
+    list-style: none;
+    display: flex;
+}
+header nav ol li a{
+    color:  hsl(0, 0%, 100%);
+    text-decoration: none;
+} 
+ .nav-togger{
+    display: none;
+ }
+} */
